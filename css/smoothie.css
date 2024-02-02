@@ -1,0 +1,48 @@
+/********************************************************************************************/
+/*                Bootstrap Stylesheet for smoothie.html                                    */
+/*                Autora: Ruyi Xia Ye                                                       */
+/*                Version: 1.0                                                              */
+/*                Fecha: February 2024                                                      */
+/*                Comentario: Lenguajes de Marcas bootstrap asignment                       */
+/********************************************************************************************/
+
+/****************************** External Fonts **********************************************/
+@font-face {
+    font-family: title;
+    src: url(../fonts/Agbalumo-Regular.ttf);
+}
+
+@font-face {
+    font-family: content;
+    src: url(../fonts/PlaypenSans-ExtraLight.ttf);
+}
+
+/************************************  General ********************************************/
+body {background-image: url(../img/background\ image\ 1.png);
+    background-size: 28%;
+    margin: 0;
+    padding: 0;
+    font-family: content;
+}
+
+h1 {font-family: title;
+    text-shadow: 1px 1px 0px black,
+                -1px 1px 0px black,
+                1px -1px 0px black,
+                -1px -1px 0px black;
+}
+
+h2 {width: 90%;}
+
+ul {list-style-image: url(../img/raspberry_1791310.png);}
+
+
+/*************************************   Colors   *****************************************/
+.bg-pink-subtle {background-color: rgb(255, 245, 252);}
+
+.bg-cream {background-color: rgb(251, 249, 246) ;}
+
+.text-darkpink {color: rgb(221, 29, 141);}
+
+
+
